@@ -1,0 +1,710 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="banner-section inner-banner-section bg-overlay-black bg_img"
+            data-background="assets/images/bg/inner-bg.png">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-12 text-center">
+                        <div class="banner-content">
+                            <h1 class="title">About-Us</h1>
+                            <div class="breadcrumb-area">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="/index">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">About-Us</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Scroll-To-Top
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <a href="#" class="scrollToTop">
+            <i class="las la-dot-circle"></i>
+            <span>Top</span>
+        </a>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Scroll-To-Top
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Call-widget
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="call-widget-wrapper">
+            <button type="button" class="call-widget-btn"><span class="num"><i class="icon-call-icon"></i> +1 814 929
+                    4263</span> <span class="arrow"></span></button>
+            <div class="call-widget-form-area">
+                <form class="book-form">
+                    <div class="row justify-content-center mb-20-none">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>From</label>
+                                <div class="book-form-icon">
+                                    <i class="icon-from-airplane"></i>
+                                </div>
+                                <select class="book-select form--control">
+                                    <option value="dhaka" selected>Dhaka</option>
+                                    <option value="london">London</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>To</label>
+                                <div class="book-form-icon">
+                                    <i class="icon-to-airplane"></i>
+                                </div>
+                                <select class="book-select form--control">
+                                    <option value="london" selected>London</option>
+                                    <option value="dhaka">Dhaka</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>Date</label>
+                                <div class="book-form-icon">
+                                    <i class="icon-schedule-icon"></i>
+                                </div>
+                                <select class="book-select form--control">
+                                    <option value="25/12/2021" selected>25/12/2021</option>
+                                    <option value="30/12/2021">30/12/2021</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
+                            <label>Passenger</label>
+                            <div class="book-quantity">
+                                <div class="book-plus-minus">
+                                    <div class="dec qtybutton">-</div>
+                                    <input class="book-plus-minus-box qty" type="text" name="qty" value="1" readonly>
+                                    <div class="inc qtybutton">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 form-group">
+                            <button type="submit" class="btn--base w-100 mt-10"><i class="icon-btn-icon"></i> Book
+                                Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Call-widget
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start About
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="about-section about--style page-wrapper-two ptb-120">
+            <div class="container">
+                <div class="row justify-content-center mb-30-none">
+                    <div class="col-xl-6 col-lg-6 mb-30">
+                        <div class="about-thumb" data-aos="fade-right" data-aos-duration="1200">
+                            <img src="{% static 'assets/images/about-two.png' %}" alt="about">
+                            <div class="about-element-two" data-aos="fade-up" data-aos-duration="1200">
+                                <img src="{% static 'assets/images/element/element-15.png' %}" alt="element">
+                            </div>
+                            <div class="about-video-wrapper">
+                                <div class="video-main">
+                                    <div class="promo-video">
+                                        <div class="waves-block">
+                                            <div class="waves wave-1"></div>
+                                            <div class="waves wave-2"></div>
+                                            <div class="waves wave-3"></div>
+                                        </div>
+                                    </div>
+                                    <a class="video-icon" data-rel="lightcase:myCollection"
+                                        href="https://www.youtube.com/embed/2wScE44hcA4">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 mb-30">
+                        <div class="about-content" data-aos="fade-left" data-aos-duration="1200">
+                            <span class="sub-title text--base">About us</span>
+                            <h2 class="title">Flynext save your
+                                time and give more comfort</h2>
+                            <p>FlyNext is a streamlined airline ticket reservation website designed to make booking flights simple and efficient. 
+                                With an easy-to-use interface, FlyNext focuses solely on helping travelers 
+                                find and book the flights they need without the distractions of deals, packages, or additional services. 
+                            </p>
+                            <div class="about-book-area">
+                                <div class="about-book-element">
+                                    <img src="{% static 'assets/images/element/element-7.png' %}" alt="element">
+                                </div>
+                                <div class="about-book-left">
+                                    <h3 class="call-title">Call for booking</h3>
+                                    <span class="call"><a href="tel:8-800-10-500">8075712028</a></span>
+                                </div>
+                                <div class="about-book-right">
+                                    <a href="service-details.html" class="btn--base"><i class="icon-btn-icon-v2"></i>
+                                        Book Now</a>
+                                </div>
+                            </div>
+                            <div class="about-list-area">
+                                <ul class="about-list">
+                                    <li><i class="fas fa-check"></i> Airbus</li>
+                                    <li><i class="fas fa-check"></i> boeing</li>
+                                </ul>
+                            </div>
+                            <p>FlyNext offers a seamless booking experience, ensuring you can secure your flights quickly and with confidence.</p>
+                            <div class="about-footer-btn">
+                                <a href="/contact" class="btn--base">Request More Info <i
+                                        class="icon-Group-2361 ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End About
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Choose
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="choose-section bg--gray ptb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 text-center">
+                        <div class="section-header">
+                            <span class="sub-title"><span>Why Us</span></span>
+                            <h2 class="section-title">Why Choose Our Flynext?</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-30-none">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div class="choose-item">
+                            <div class="choose-thumb">
+                                <img src="{% static 'assets/images/choose.png' %}" alt="choose">
+                            </div>
+                            <span class="num">01</span>
+                            <h3 class="title">Leading private aviation</h3>
+                            <p>As well as getting to fly to many different
+                                destinations as part of their job, airplane
+                                pilots get big discounts on</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div class="choose-item">
+                            <div class="choose-thumb">
+                                <img src="{% static 'assets/images/choose.png' %}" alt="choose">
+                            </div>
+                            <span class="num">02</span>
+                            <h3 class="title">Tailored memberships</h3>
+                            <p>Charter an entire jet, or offer the seats you don’t need through our app a need for full
+                                or even fractional jet ownership</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div class="choose-item">
+                            <div class="choose-thumb">
+                                <img src="{% static 'assets/images/choose.png' %}" alt="choose">
+                            </div>
+                            <span class="num">03</span>
+                            <h3 class="title">Leading safety & privacy</h3>
+                            <p>XO is not simply a private jet service. Whether you’re traveling for business or leisure,
+                                XO Membership also delivers</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div class="choose-item">
+                            <div class="choose-thumb">
+                                <img src="{% static 'assets/images/choose.png' %}" alt="choose">
+                            </div>
+                            <span class="num">04</span>
+                            <h3 class="title">Client ratings & reviews</h3>
+                            <p>Search the world with ease and transparency.As the only tech-forward private aviation
+                                company</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div class="choose-item">
+                            <div class="choose-thumb">
+                                <img src="{% static 'assets/images/choose.png' %}" alt="choose">
+                            </div>
+                            <span class="num">05</span>
+                            <h3 class="title">Exceptional service</h3>
+                            <p>Our technology consistently delivers the best pricing for charters – and the unique
+                                ability to buy individual seats.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                        <div class="choose-item">
+                            <div class="choose-thumb">
+                                <img src="{% static 'assets/images/choose.png' %}" alt="choose">
+                            </div>
+                            <span class="num">06</span>
+                            <h3 class="title">Faster & smarter response</h3>
+                            <p>The first small jet-powered civil aircraft was the Morane-Saulnier MS.760 Paris,
+                                developed privately in the early 1950s</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Choose
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Statistics
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="statistics-section bg-overlay-black ptb-120 bg_img" data-background="assets/images/bg/bg-2.png">
+            <div class="container">
+                <div class="statistics-area">
+                    <div class="row mb-30-none">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                            <div class="statistics-item">
+                                <div class="statistics-content">
+                                    <div class="odo-area">
+                                        <h3 class="odo-title odometer" data-odometer-final="95">0</h3>
+                                    </div>
+                                    <p>Professional Pilots</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                            <div class="statistics-item">
+                                <div class="statistics-content">
+                                    <div class="odo-area">
+                                        <h3 class="odo-title odometer" data-odometer-final="68">0</h3>
+                                    </div>
+                                    <p>Jet Airplanes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                            <div class="statistics-item">
+                                <div class="statistics-content">
+                                    <div class="odo-area">
+                                        <h3 class="odo-title odometer" data-odometer-final="290">0</h3>
+                                    </div>
+                                    <p>World Airports</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-30">
+                            <div class="statistics-item" data-aos="zoom-in" data-aos-duration="1200">
+                                <div class="statistics-content">
+                                    <div class="odo-area">
+                                        <h3 class="odo-title odometer" data-odometer-final="195">0</h3>
+                                    </div>
+                                    <p>Directions</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Statistics
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start History
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="history-section bg--gray ptb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 text-center">
+                        <div class="section-header" data-aos="fade-up" data-aos-duration="1200">
+                            <span class="sub-title"><span>Our History</span></span>
+                            <h2 class="section-title">What Make Us Special</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="history-area">
+                    <div class="history-item">
+                        <div class="history-thumb" data-aos="fade-right" data-aos-duration="1200">
+                            <img src="{% static 'assets/images/history/history-1.png' %}" alt="history">
+                        </div>
+                        <div class="history-content" data-aos="fade-left" data-aos-duration="1200">
+                            <h2 class="year">2012</h2>
+                            <h3 class="title">The First Private Jet</h3>
+                            <p>The Morane-Saulnier MS.760 Paris had a gross weight of 7,650 pounds (3.47 t), initially
+                                powered by two Turboméca Marboré turbojets of 880 pounds-force (3.9 kN) thrust.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                        <div class="history-thumb" data-aos="fade-left" data-aos-duration="1200">
+                            <img src="{% static 'assets/images/history/history-2.png' %}" alt="history">
+                        </div>
+                        <div class="history-content" data-aos="fade-right" data-aos-duration="1200">
+                            <h2 class="year">2016</h2>
+                            <h3 class="title">The Gulfstream Era</h3>
+                            <p>The Lockheed JetStar, designed to meet USAF UCX requirements and seating ten passengers
+                                and two crew, first flew on 4 September 1957. A total of 204 aircraft (20.2 t) </p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                        <div class="history-thumb" data-aos="fade-right" data-aos-duration="1200">
+                            <img src="{% static 'assets/images/history/history-3.png' %}" alt="history">
+                        </div>
+                        <div class="history-content" data-aos="fade-left" data-aos-duration="1200">
+                            <h2 class="year">2018</h2>
+                            <h3 class="title">The Gulfstream Era</h3>
+                            <p>The smaller, 17,760 pounds (8.06 t) MTOW North American Sabreliner, tailored to the USAF
+                                UTX requirement, first flew on 16 September 1958. Powered by two Pratt & Whitney.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                        <div class="history-thumb" data-aos="fade-left" data-aos-duration="1200">
+                            <img src="{% static 'assets/images/history/history-4.png' %}" alt="history">
+                        </div>
+                        <div class="history-content" data-aos="fade-right" data-aos-duration="1200">
+                            <h2 class="year">202X</h2>
+                            <h3 class="title">Beyond Earth</h3>
+                            <p>The 25,000 pounds (11 t) MTOW British Aerospace 125 first flew on 13 August 1962 as the
+                                de Havilland DH.125, powered by two 3,000 pounds-force (13 kN) Armstrong Siddeley. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End History
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Team
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="team-section ptb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-header-wrapper">
+                            <div class="section-header">
+                                <span class="sub-title text--base">Our team</span>
+                                <h2 class="section-title">Meet Our Team Members</h2>
+                            </div>
+                            <div class="slider-nav-area">
+                                <div class="slider-prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </div>
+                                <div class="slider-next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="team-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="team-item">
+                                        <div class="team-thumb">
+                                            <img src="{% static 'assets/images/team/team-1.png' %}" alt="team">
+                                        </div>
+                                        <div class="team-content">
+                                            <h3 class="title"><a href="team-details.html">Kelvine Pitterson</a></h3>
+                                            <span class="sub-title">Managing Director</span>
+                                        </div>
+                                        <div class="team-social-area">
+                                            <ul class="team-social">
+                                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#0" class="active"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
+                                                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-item">
+                                        <div class="team-thumb">
+                                            <img src="{% static 'assets/images/team/team-2.png' %}" alt="team">
+                                        </div>
+                                        <div class="team-content">
+                                            <h3 class="title"><a href="team-details.html">Robin Hilson</a></h3>
+                                            <span class="sub-title">Commercial Director</span>
+                                        </div>
+                                        <div class="team-social-area">
+                                            <ul class="team-social">
+                                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#0" class="active"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
+                                                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-item">
+                                        <div class="team-thumb">
+                                            <img src="{% static 'assets/images/team/team-3.png' %}" alt="team">
+                                        </div>
+                                        <div class="team-content">
+                                            <h3 class="title"><a href="team-details.html">Alex Moure</a></h3>
+                                            <span class="sub-title">Director of Finance</span>
+                                        </div>
+                                        <div class="team-social-area">
+                                            <ul class="team-social">
+                                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#0" class="active"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
+                                                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Team
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Client
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="client-section ptb-120 bg_img" data-background="{% static 'assets/images/bg/bg-5.png' %}">
+            <div class="container-fluid p-0">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 text-center">
+                        <div class="section-header">
+                            <span class="sub-title"><span>Testimonial</span></span>
+                            <h2 class="section-title">Our Customer Feedback</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="client-slider-two">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="client-item">
+                                        <div class="client-quote">
+                                            <i class="icon-quote"></i>
+                                        </div>
+                                        <div class="client-content">
+                                            <p>Global aircraft charter specialist Chapman Freeborn, part of the Avia
+                                                Solutions Group, opens Moscow office to support growth and expansion
+                                                plans in response to fast developing Russian market. </p>
+                                        </div>
+                                        <div class="client-footer">
+                                            <div class="client-post-meta">
+                                                <div class="user-thumb">
+                                                    <img src="{% static 'assets/images/user.png' %}" alt="user">
+                                                </div>
+                                                <span class="name">Jhon Abraham</span>
+                                            </div>
+                                            <span class="ratings">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star active"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-item">
+                                        <div class="client-quote">
+                                            <i class="icon-quote"></i>
+                                        </div>
+                                        <div class="client-content">
+                                            <p>Our technology consistently delivers the best pricing for charters – and
+                                                the unique ability to buy individual seats. Search the world with ease
+                                                and transparency.As the only tech-forward </p>
+                                        </div>
+                                        <div class="client-footer">
+                                            <div class="client-post-meta">
+                                                <div class="user-thumb">
+                                                    <img src="{% static 'assets/images/user.png' %}" alt="user">
+                                                </div>
+                                                <span class="name">Mark John</span>
+                                            </div>
+                                            <span class="ratings">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star active"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-item">
+                                        <div class="client-quote">
+                                            <i class="icon-quote"></i>
+                                        </div>
+                                        <div class="client-content">
+                                            <p>XO is not simply a private jet service. Whether you’re traveling for
+                                                business or leisure, XO Membership also delivers insider access to and
+                                                lifestyle services that enrich and broaden the journey. </p>
+                                        </div>
+                                        <div class="client-footer">
+                                            <div class="client-post-meta">
+                                                <div class="user-thumb">
+                                                    <img src="{% static 'assets/images/user.png' %}" alt="user">
+                                                </div>
+                                                <span class="name">James Walton</span>
+                                            </div>
+                                            <span class="ratings">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star active"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Client
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Faq
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="faq-section ptb-120">
+            <div class="container">
+                <div class="row justify-content-center mb-30-none">
+                    <div class="col-xl-6 col-lg-7 mb-30" data-aos="fade-right" data-aos-duration="1200">
+                        <div class="faq-header-area">
+                            <span class="sub-title">FAQ</span>
+                            <h2 class="title">Why you should choose our
+                                services</h2>
+                            <p>Do you have questions about flying?</p>
+                            <ul class="faq-service-list">
+                                <li><i class="las la-star"></i> Quality Services</li>
+                                <li><i class="las la-star"></i> Affordable Cost</li>
+                                <li><i class="las la-star"></i> Professional</li>
+                            </ul>
+                        </div>
+                        <div class="faq-wrapper">
+                            <div class="faq-item active open">
+                                <h3 class="faq-title"><span class="title">1. How do I book a flight on FlyNext?<</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>To book a flight on FlyNext, simply enter your departure and destination cities, select your travel dates, and choose from the available flights. 
+                                        Follow the prompts to enter your passenger details and complete the payment process.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">2. How will I receive my e-ticket?</span><span
+                                        class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>After completing your booking, your e-ticket will be sent to the email address you provided during the booking process.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">3. What should I do if I didn’t receive my e-ticket?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>If you haven't received your e-ticket, please check your spam or junk mail folder. 
+                                        If it's still not there, contact our customer support team for assistance.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">4. Can I change or cancel my flight after booking?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>Yes, you can change or cancel your flight after booking. 
+                                        Please contact the customer support for assistance. 
+                                        Note that changes and cancellations may be subject to fees as per the airline's policy..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-5 mb-30">
+                        <div class="faq-thumb" data-aos="fade-left" data-aos-duration="1200">
+                            <img src="{% static 'assets/images/faq.png' %}" alt="faq">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Faq
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Brand
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="brand-section ptb-120">
+            <div class="container">
+                <div class="row justify-content-center mt-10-none mb-10-none">
+                    <div class="col-xl-12 text-center">
+                        <div class="brand-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="brand-item">
+                                        <img src="{% static 'assets/images/brand/brand-1.png' %}" alt="brand">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="brand-item">
+                                        <img src="{% static 'assets/images/brand/brand-2.png' %}" alt="brand">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="brand-item">
+                                        <img src="{% static 'assets/images/brand/brand-3.png' %}" alt="brand">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="brand-item">
+                                        <img src="{% static 'assets/images/brand/brand-4.png' %}" alt="brand">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="brand-item">
+                                        <img src="{% static 'assets/images/brand/brand-5.png' %}" alt="brand">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Brand
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+{% endblock %}

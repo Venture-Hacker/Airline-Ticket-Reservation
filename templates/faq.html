@@ -1,0 +1,269 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="banner-section inner-banner-section bg-overlay-black bg_img"
+            data-background="assets/images/bg/inner-bg.png">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-12 text-center">
+                        <div class="banner-content">
+                            <h1 class="title">Read FAQ’s</h1>
+                            <div class="breadcrumb-area">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="/index">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Banner
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Scroll-To-Top
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <a href="#" class="scrollToTop">
+            <i class="las la-dot-circle"></i>
+            <span>Top</span>
+        </a>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Scroll-To-Top
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Call-widget
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="call-widget-wrapper">
+            <button type="button" class="call-widget-btn"><span class="num"><i class="icon-call-icon"></i> +1 814 929
+                    4263</span> <span class="arrow"></span></button>
+            <div class="call-widget-form-area">
+                <form class="book-form">
+                    <div class="row justify-content-center mb-20-none">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>From</label>
+                                <div class="book-form-icon">
+                                    <i class="icon-from-airplane"></i>
+                                </div>
+                                <select class="book-select form--control">
+                                    <option value="dhaka" selected>Dhaka</option>
+                                    <option value="london">London</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>To</label>
+                                <div class="book-form-icon">
+                                    <i class="icon-to-airplane"></i>
+                                </div>
+                                <select class="book-select form--control">
+                                    <option value="london" selected>London</option>
+                                    <option value="dhaka">Dhaka</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>Date</label>
+                                <div class="book-form-icon">
+                                    <i class="icon-schedule-icon"></i>
+                                </div>
+                                <select class="book-select form--control">
+                                    <option value="25/12/2021" selected>25/12/2021</option>
+                                    <option value="30/12/2021">30/12/2021</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
+                            <label>Passenger</label>
+                            <div class="book-quantity">
+                                <div class="book-plus-minus">
+                                    <div class="dec qtybutton">-</div>
+                                    <input class="book-plus-minus-box qty" type="text" name="qty" value="1" readonly>
+                                    <div class="inc qtybutton">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 form-group">
+                            <button type="submit" class="btn--base w-100 mt-10"><i class="icon-btn-icon"></i> Book
+                                Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Call-widget
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Faq
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="faq-section bg--gray ptb-120">
+            <div class="container">
+                <div class="row justify-content-center mb-30-none">
+                    <div class="col-xl-6 col-lg-6 mb-30">
+                        <div class="faq-header-area">
+                            <h3 class="title">General Questions</h3>
+                        </div>
+                        <div class="faq-wrapper">
+                            <div class="faq-item active open">
+                                <h3 class="faq-title"><span class="title">1. How do I book a flight on FlyNext?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>To book a flight on FlyNext, simply enter your departure and destination cities, select your travel dates, and choose from the available flights. 
+                                        Follow the prompts to enter your passenger details and complete the payment process.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">2. How will I receive my e-ticket?</span><span
+                                        class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>After completing your booking, your e-ticket will be sent to the email address you provided during the booking process.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">3. What payment methods are accepted on FlyNext?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>FlyNext accepts major credit and debit cards.
+                                         All payments are securely processed through our website.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">4. What should I do if I didn’t receive my e-ticket?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>If you haven't received your e-ticket, please check your spam or junk mail folder. 
+                                        If it's still not there, contact our customer support team for assistance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 mb-30">
+                        <div class="faq-header-area">
+                            <h3 class="title">Booking Related</h3>
+                        </div>
+                        <div class="faq-wrapper">
+                            <div class="faq-item active open">
+                                <h3 class="faq-title"><span class="title">1. Can I book a flight for someone else using my account?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>Yes, you can book a flight for someone else using your FlyNext account. 
+                                        Simply enter the passenger details of the person you’re booking for during the reservation process.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">2. Can I change or cancel my flight after booking?    </span><span
+                                        class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>Yes, you can change or cancel your flight after booking. 
+                                        Please contact the customer support for assistance. 
+                                        Note that changes and cancellations may be subject to fees as per the airline's policy..</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">3. Can I book multiple flights in one transaction on FlyNext?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>No, FlyNext only allows you to book one flight per transaction. 
+                                        If you need to book additional flights, you will need to complete separate bookings for each flight.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <h3 class="faq-title"><span class="title">4. Can I hold a reservation on FlyNext and pay later?</span><span class="right-icon"></span></h3>
+                                <div class="faq-content">
+                                    <p>No, FlyNext does not offer the option to hold a reservation and pay later. 
+                                        All bookings must be paid in full at the time of reservation to secure your flight.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Faq
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Contact
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <section class="contact-section bg--gray ptb-120">
+            <div class="container">
+                <div class="row justify-content-center mb-30-none">
+                    <div class="col-xl-5 col-lg-5 mb-30">
+                        <div class="contact-left-content" data-aos="fade-right" data-aos-duration="1200">
+                            <span class="sub-title">Talk to us</span>
+                            <h2 class="title">Any Question?
+                                Fell Free to
+                                Contact</h2>
+                            <p>With a wide selection of airlines to choose from, booking multiple airline 
+                                tickets with us ensures a smooth and efficient travel experience</p>
+                            <ul class="contact-social">
+                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#0" class="active"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 mb-30">
+                        <div class="contact-form-inner" data-aos="fade-left" data-aos-duration="1200">
+                            <div class="contact-form-area">
+                                <form class="contact-form">
+                                    <div class="row justify-content-center mb-20-none">
+                                        <div class="col-xl-6 col-lg-6 form-group">
+                                            <label class="icon"><i class="icon-name_icone"></i></label>
+                                            <input type="text" class="form--control" name="name" placeholder="Name"
+                                                required>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 form-group">
+                                            <label class="icon"><i class="las la-envelope"></i></label>
+                                            <input type="email" class="form--control" name="email" placeholder="Email"
+                                                required>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 form-group">
+                                            <label class="icon"><i class="icon-call_icone"></i></label>
+                                            <input type="number" class="form--control" name="phone" placeholder="Phone"
+                                                required>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 form-group">
+                                            <div class="contact-select">
+                                                <select class="form--control" placeholder="Subject">
+                                                    <option value="" disabled selected>Subject</option>
+                                                    <option value="1">Complaint</option>
+                                                    <option value="2">Feedback</option>
+                                                    <option value="3">Query</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 form-group">
+                                            <label class="icon"><i class="icon-massage"></i></label>
+                                            <textarea class="form--control" placeholder="Message" required></textarea>
+                                        </div>
+                                        <div class="col-lg-12 form-group">
+                                            <button type="submit" class="btn--base mt-10">Submit Now <i
+                                                    class="icon-Group-2361 ml-2"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Contact
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+{% endblock %}

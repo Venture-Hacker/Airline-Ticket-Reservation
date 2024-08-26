@@ -1,0 +1,18 @@
+Password is not validated
+
+Ticket bookimg is not set
+
+calendar is not set
+
+User control not set
+
+Authority control is not set
+
+Book now button on all pages that set to login should check if there is any user logged if logged in redirect to Dashboard
+if not then goto login page.
+
+Interfaces
+----------
+User Dashboard
+Authority Dashboard
+Dynamic Pricing

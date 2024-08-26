@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Scroll-To-Top
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <a href="#" class="scrollToTop">
+            <i class="las la-dot-circle"></i>
+            <span>Top</span>
+        </a>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Scroll-To-Top
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start 404
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="four-not-four-section bg--gray ptb-120">
+            <div class="four-not-four-element-one">
+                <img src="{% static 'assets/images/element/element-16.png' %}" alt="element">
+            </div>
+            <div class="four-not-four-element-two">
+                <img src="{% static 'assets/images/element/element-17.png' %}" alt="element">
+            </div>
+            <div class="four-not-four-item text-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="four-not-four-thumb">
+                    <img src="{% static 'assets/images/404.png' %}" alt="404">
+                    <div class="four-not-four-element-three">
+                        <img src="{% static 'assets/images/element/element-16.png' %}" alt="element">
+                    </div>
+                    <div class="four-not-four-element-four">
+                        <img src="{% static 'assets/images/element/element-17.png' %}" alt="element">
+                    </div>
+                </div>
+                <div class="four-not-four-content">
+                    <h2 class="title">Oops! Look like you’re lost</h2>
+                    <p> Page does not exist or some other error occured. Go to our <span><a href="/index">Home
+                                page</a></span> </p>
+                </div>
+            </div>
+        </div>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End 404
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+{% endblock %}

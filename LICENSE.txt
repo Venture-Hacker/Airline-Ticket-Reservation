@@ -1,0 +1,44 @@
+Proprietary License Agreement
+
+Copyright (c) 2024 Flynext
+
+All rights reserved.
+
+This Proprietary License Agreement (the "Agreement") is a legal agreement between you (either an individual or an entity) and the copyright holder regarding the use of the software and associated documentation files (the "Software"). By accessing or using the Software, you agree to be bound by the terms of this Agreement.
+
+1. **License Grant**: The copyright holder grants you a non-exclusive, non-transferable, revocable license to use the Software solely for personal or internal business purposes. The Software is licensed, not sold. You may not:
+   - Copy, modify, or create derivative works based on the Software.
+   - Reproduce, distribute, or publicly display the Software, in whole or in part.
+   - Transfer, sublicense, lease, or rent the Software to any third party without the explicit written permission of the copyright holder.
+   - Reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software.
+
+2. **Restrictions and Obligations**:
+   - You may not use the Software for any unlawful purpose or in any manner that infringes the intellectual property rights of the copyright holder or any third party.
+   - You must implement reasonable security measures to protect the Software from unauthorized access, use, or disclosure.
+   - You are responsible for ensuring that any third party to whom you provide access to the Software complies with the terms of this Agreement.
+
+3. **Ownership**: The Software is owned by the copyright holder and its licensors. All intellectual property rights, including but not limited to copyrights, patents, trademarks, and trade secrets, in and to the Software are and shall remain the exclusive property of the copyright holder.
+
+4. **Termination**: This Agreement is effective until terminated. The copyright holder may terminate this Agreement immediately if you breach any term of this Agreement. Upon termination, you must:
+   - Cease all use of the Software.
+   - Destroy all copies of the Software in your possession.
+   - Certify in writing to the copyright holder that you have complied with these requirements.
+
+5. **No Warranty**: The Software is provided "as is" and "with all faults." The copyright holder makes no representations or warranties, express or implied, regarding the Software, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. The copyright holder does not guarantee that the Software will meet your requirements or that the Software will be uninterrupted or error-free.
+
+6. **Limitation of Liability**: In no event shall the copyright holder be liable for any indirect, incidental, special, consequential, or punitive damages, or any damages whatsoever, arising out of or in connection with the use or performance of the Software, even if the copyright holder has been advised of the possibility of such damages. The copyright holder's total liability under this Agreement shall not exceed the amount you paid for the Software.
+
+7. **Indemnification**: You agree to indemnify, defend, and hold harmless the copyright holder from and against any claims, liabilities, damages, losses, or expenses (including reasonable attorneys' fees) arising out of or in any way related to your use of the Software or your breach of this Agreement.
+
+8. **Governing Law**: This Agreement shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of laws principles. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts located in [Your Jurisdiction].
+
+9. **Severability**: If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect. The invalid or unenforceable provision shall be modified to the extent necessary to make it valid and enforceable.
+
+10. **Entire Agreement**: This Agreement constitutes the entire agreement between you and the copyright holder concerning the Software and supersedes all prior or contemporaneous agreements, understandings, and representations, whether written or oral, regarding the Software.
+
+11. **Contact Information**: For permission requests, questions, or further information about this Agreement, please contact the copyright holder at:
+
+Diljith M S diljith208@gmail.com
+
+By using or obtaining the Software, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement.
+
